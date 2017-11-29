@@ -72,10 +72,13 @@ html {
 
 .nav a:focus {
   top: 0;
+  outline: 3px solid #fff;
 }
 
 .skip-links a:focus {
   top: 0;
+  outline: 3px solid #fff;
+  z-index: 2;
 }
 
 .masthead a:hover {
